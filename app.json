@@ -1,11 +1,16 @@
 {
   "expo": {
     "name": "Hymns",
+    "icon": "./assets/playstore.png",
     "slug": "Hymns",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "android": {
+      "package": "com.greenturtle.hymns",
+      "versionCode": 1
+    }
   },
   "name": "Hymns"
 }
